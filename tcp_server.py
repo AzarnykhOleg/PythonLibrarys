@@ -17,3 +17,4 @@ with conn:
             break  # Клиент отключился
         conn.sendall(data.upper())  # Отправка ответа
 serv_sock.close()
+
