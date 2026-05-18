@@ -23,7 +23,7 @@ def backup_folder(target_folder, destination_folder):
     dirs = 0
     files = 0
     for path in os.walk(full_destination_folder):
-        dirs += 1
+        dirs += len(path[1])
         files += len(path[2])
     print(f'{dirs} directories and {files} files created')
     return None
