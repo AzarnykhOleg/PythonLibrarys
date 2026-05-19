@@ -1,0 +1,4 @@
+2025-07-11 12:34:56 INFO Starting application...
+2025-07-11 12:35:01 WARNING Low disk space from 192.168.1.100
+2025-07-11 12:35:05 ERROR Connection timeout from 10.0.0.23
+2025-07-11 12:35:10 INFO Process complete.
